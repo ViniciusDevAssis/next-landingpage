@@ -51,7 +51,7 @@ export function Testimonials() {
     <section className="bg-lp_yellow_normal py-16">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12">Testimonials from our customers</h2>
-        <div className="relative max-w-4xl mx-auto">
+        <div className="relative max-w-4xl mx-auto" data-aos="zoom-out">
           <div className="overflow-hidden" ref={emblaRef}>
             <div className="flex">
               {testimonials.map((item, index) => (

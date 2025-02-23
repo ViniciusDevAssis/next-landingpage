@@ -21,15 +21,17 @@ export function Hero() {
       <div className="container mx-auto pt-16 pb-16 md:pb-0 px-4 relative">
         <article className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="space-y-6">
-            <h1 className="text-2xl font-bold md:text-3xl lg:text-4xl leading-10">
+            <h1 className="text-2xl font-bold md:text-3xl lg:text-4xl leading-10" data-aos="fade-down">
               Your pet deserves care, affection and special attention.
             </h1>
-            <p className="lg:text-lg">
+            <p className="lg:text-lg" data-aos="fade-right">
               We offer the best services to ensure the well-being and happiness
               of your four-legged friend.
             </p>
 
             <a
+              data-aos="fade-up"
+              data-aos-delay="500"
               href="#"
               className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center
             justify-center w-fit gap-2"
