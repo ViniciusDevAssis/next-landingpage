@@ -52,6 +52,7 @@ export default {
   			},
 				lp_red: '#E84C3D',
 				lp_yellow_light: '#FDF6EC',
+				lp_yellow_normal: "#FFD449",
 				lp_blue: "#1E293B"
   		},
   		borderRadius: {
